@@ -1,0 +1,56 @@
+{
+  "source": "all_sources",
+  "total_records": 2547,
+  "generated_at": "2024-12-15T08:35:00Z",
+  "overall_pass_rate": 0.90,
+  "checks": [
+    {
+      "check_name": "completeness_record_id",
+      "field": "record_id",
+      "passed": true,
+      "expected": ">= 100.0% non-null",
+      "actual": "100.0%",
+      "severity": "error"
+    },
+    {
+      "check_name": "completeness_full_name",
+      "field": "full_name",
+      "passed": true,
+      "expected": ">= 90.0% non-null",
+      "actual": "99.8%",
+      "severity": "error"
+    },
+    {
+      "check_name": "uniqueness_record_id",
+      "field": "record_id",
+      "passed": true,
+      "expected": "100% unique",
+      "actual": "100.0%",
+      "severity": "error"
+    },
+    {
+      "check_name": "format_contact_email",
+      "field": "contact_email",
+      "passed": true,
+      "expected": ">= 85.0% valid format",
+      "actual": "91.8%",
+      "severity": "error"
+    },
+    {
+      "check_name": "format_contact_phone",
+      "field": "contact_phone",
+      "passed": true,
+      "expected": ">= 85.0% valid format",
+      "actual": "87.2%",
+      "severity": "warning"
+    },
+    {
+      "check_name": "completeness_specialization",
+      "field": "specialization",
+      "passed": false,
+      "expected": ">= 90.0% non-null",
+      "actual": "68.4%",
+      "severity": "warning"
+    }
+  ]
+}

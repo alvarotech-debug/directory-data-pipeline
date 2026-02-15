@@ -1,0 +1,4 @@
+source,record_id,full_name,title,organization,specialization,location,country,contact_email,contact_phone,website,profile_url,status,completeness_score,extracted_at
+openlibrary_authors,OL1234A,Margaret Atwood,18 November 1939,The Handmaid's Tale,Fiction,,,,,,https://openlibrary.org/authors/OL1234A,,0.38,2024-12-15T08:30:00
+random_professionals,abc-123-def,Emily Richardson,Ms,,,London,GB,emily.r@example.com,+447700900123,,,Active,0.62,2024-12-15T08:31:00
+countries_registry,US,United States,,,North America,Washington D.C.,US,,,,,,0.50,2024-12-15T08:32:00

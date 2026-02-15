@@ -1,0 +1,23 @@
+{
+  "source": "openlibrary_authors",
+  "extracted_at": "2024-12-15T08:30:00Z",
+  "page": 1,
+  "records": [
+    {
+      "key": "OL1234A",
+      "name": "Margaret Atwood",
+      "top_work": "The Handmaid's Tale",
+      "work_count": 127,
+      "top_subjects": ["fiction", "dystopian"],
+      "birth_date": "18 November 1939"
+    },
+    {
+      "key": "OL5678A",
+      "name": "Haruki Murakami",
+      "top_work": "Norwegian Wood",
+      "work_count": 98,
+      "top_subjects": ["fiction", "japanese literature"],
+      "birth_date": "12 January 1949"
+    }
+  ]
+}
